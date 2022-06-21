@@ -1,28 +1,51 @@
-.container{
-    width: 1000px;
-    margin: 0 calc(50% - 500px);
+.flex-container{
+    padding: 80px 25% 0 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
 }
-@media (max-width:1100px){
-    .container{
-        width: 900px;
-        margin: 0 calc(50% - 450px)
-    }
+
+.logo{
+    height: 60px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 25px;
 }
-@media (max-width:900px){
-    .container{
-        width: 600px;
-        margin: 0 calc(50% - 350px)
-    }
+
+.top-h1{
+    font-size: 75px;
+    text-transform: uppercase;
 }
-@media (max-width:700px){
-    .container{
-        width: 500px;
-        margin: 0 calc(50% - 250px)
-    }
+.top-p{
+    font-size: 28px;
 }
-@media (max-width:440px){
-    .container{
-        width: 300px;
-        margin: 0 calc(50% - 150px)
-    }
+.clock{
+    color: white;
+    margin: 60px 0;
+}
+.mouse{
+    margin: 0 0 20px 0;
+}
+.mid-flex-container{
+    background-color: antiquewhite;
+    margin: 0 25% 0 25%;
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content:space-between;
+    align-items: center;
+}
+.buttonup{
+    position:relative;
+    padding: 10px;
+    bottom: -20px;
+}
+
+.tempcube{
+    width: 45%;
+    height: 50%;
+    background-color: aqua;
 }
