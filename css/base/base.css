@@ -4,8 +4,12 @@ body *{
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
+body{
+    width: 100%;
+}
 :root{
     --main-color: #03a9f4;
     --secondary-color: #ea1e63;
@@ -15,4 +19,7 @@ body *{
 }
 .bg-secondary{
     background-color: var(--secondary-color);
+}
+p{
+    color: grey;
 }
