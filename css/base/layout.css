@@ -1,25 +1,26 @@
 .flex-container{
-    padding: 80px 25% 0 25%;
-    height: 100vh;
+    padding: 80px 20% 0 20%;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     text-align: center;
+    align-items: center;
     gap: 10px;
 }
 
 .logo{
-    height: 60px;
+    height: 50px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 25px;
 }
 
 .top-h1{
-    font-size: 75px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 .top-p{
-    font-size: 28px;
+    font-size: 24px;
 }
 .clock{
     color: white;
@@ -48,4 +49,58 @@
     width: 45%;
     height: 50%;
     background-color: aqua;
+}
+@media (max-width:800px){
+    .top-h1{
+        font-size: 50px;
+    }
+    .logo{
+        height: 40px;
+        width: 100%;
+    }
+}
+@media (max-width:720px){
+    .top-p{
+        font-size: 20px;
+    }
+    .top-h1{
+        font-size: 42px;
+    }
+    .logo{
+        height: 30px;
+        width: 100%;
+    }
+}
+@media (max-width:560px){
+    .top-p{
+        font-size: 14px;
+    }
+    .top-h1{
+        font-size: 34px;
+    }
+    .logo{
+        height: 30px;
+        width: 100%;
+    }
+    .flex-container{
+        padding: 80px 15% 0 15%;
+    }
+}
+@media (max-width:420px){
+    .top-p{
+        font-size: 14px;
+    }
+    .top-h1{
+        font-size: 34px;
+    }
+    .logo{
+        height: 30px;
+        width: 100%;
+    }
+    .flex-container{
+        padding: 80px 5% 0 5%;
+    }
+}
+.top-form-container{
+    width: 70%;
 }
