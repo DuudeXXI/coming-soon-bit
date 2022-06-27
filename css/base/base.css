@@ -2,7 +2,6 @@ body,
 body *{
     margin:0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
     font-family: Montserrat;
 }
@@ -19,7 +18,4 @@ body{
 }
 .bg-secondary{
     background-color: var(--secondary-color);
-}
-p{
-    color: grey;
 }
