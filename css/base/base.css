@@ -8,13 +8,18 @@ body *{
 
 body{
     width: 100%;
+    min-height: 100vh;
 }
 :root{
     --main-color: #03a9f4;
     --secondary-color: #ea1e63;
 }
 .bg-main{
-    background-color: var(--main-color);
+    background-image: url(../../img/fonas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg-secondary{
     background-color: var(--secondary-color);
