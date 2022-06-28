@@ -31,7 +31,7 @@
     width: 90%;
     border-radius: 10px 0 0 10px;
     animation-name: slidein;
-    animation-duration: 6s;
+    animation-duration: 3s;
 }
 .progress-bar > .bottom1{
     position: relative;
@@ -49,7 +49,7 @@
     width: 86%;
     border-radius: 10px 0 0 10px;
     animation-name: slidein;
-    animation-duration: 6s;
+    animation-duration: 3s;
 }
 .progress-bar > .bottom2{
     position: relative;
@@ -67,7 +67,7 @@
         width: 86%;
         border-radius: 10px 0 0 10px;
         animation-name: slidein;
-        animation-duration: 6s;
+        animation-duration: 3s;
         transition-timing-function: linear;
 }
 @keyframes slidein{

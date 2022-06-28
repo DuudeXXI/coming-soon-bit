@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
 }
 :root{
+    scroll-behavior: smooth;
     --main-color: #03a9f4;
     --secondary-color: #ea1e63;
 }

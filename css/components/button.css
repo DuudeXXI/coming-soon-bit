@@ -1,0 +1,14 @@
+.socials{
+    position: relative;
+}
+.socials > .up{
+    position:absolute;
+    top:-20px;
+    right:-10px;
+    border: 2px solid red;
+}
+@media(max-width:810px){
+    .socials > .up{
+        display:none;
+    }
+}
