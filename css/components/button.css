@@ -3,11 +3,16 @@
 }
 .socials > .up{
     position:absolute;
+    background-color: var(--secondary-color);
     top:-20px;
-    right:-10px;
-    border: 2px solid red;
+    right:0;
+    border: 2px solid var(--secondary-color);
+    font-size: 20px;
 }
-@media(max-width:810px){
+.socials > .up:hover{
+    border:2px solid white;
+}
+@media(max-width:1150px){
     .socials > .up{
         display:none;
     }

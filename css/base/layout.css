@@ -9,22 +9,22 @@
 }
 
 .logo{
-    height: 50px;
+    height: 35px;
     width: 100%;
     object-fit: contain;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .top-h1{
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
 }
 .top-p{
-    font-size: 24px;
+    font-size: 20px;
 }
 .clock{
     color: white;
-    margin: 60px 0;
+    margin: 40px 0;
 }
 .mouse{
     margin: 0 0 20px 0;
@@ -52,10 +52,10 @@
 }
 @media (max-width:560px){
     .top-p{
-        font-size: 14px;
+        font-size: 18px;
     }
     .top-h1{
-        font-size: 34px;
+        font-size: 38px;
     }
     .logo{
         height: 30px;
@@ -67,7 +67,9 @@
 }
 @media (max-width:420px){
     .top-p{
-        font-size: 14px;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 0;
     }
     .top-h1{
         font-size: 34px;
@@ -134,7 +136,7 @@
 }
 /* Mid section End */
 .socials{
-    height: 80px;
+    height: 60px;
     width: 70%;
     margin: 0 15% 0 15%;
     display: flex;
@@ -145,16 +147,21 @@
     gap:20px;
 }
 .socials > a{
+    display: flex;
     color: aliceblue;
     text-decoration: none;
     text-align: center;
+    justify-content: center;
     background-color: var(--main-color);
-    display: block;
-    line-height: 45px;
     width: 45px;
     height: 45px;
     border-radius: 50%;
     transition: all 0.4s;
+}
+.socials > a::before{
+    display: block;
+    justify-self: center;
+    align-self: center;
 }
 .socials > a:hover{
     color: var(--main-color);
