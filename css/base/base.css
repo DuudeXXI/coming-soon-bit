@@ -2,24 +2,30 @@ body,
 body *{
     margin:0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
     font-family: Montserrat;
 }
 
 body{
     width: 100%;
+    min-height: 100vh;
 }
 :root{
+    scroll-behavior: smooth;
     --main-color: #03a9f4;
     --secondary-color: #ea1e63;
 }
 .bg-main{
-    background-color: var(--main-color);
+    background-image: url(../../img/fonas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg-secondary{
     background-color: var(--secondary-color);
 }
-p{
-    color: grey;
+.bg-color-main{
+    background-image: none;
+    background-color: var(--main-color);
 }

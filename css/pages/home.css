@@ -5,7 +5,8 @@
 @import '../3rd-party/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 /* <!-- components --> */
-@import '../components/clock.css';
+/* @import '../components/clock-flex.css'; */
+@import '../components/clock-grid.css';
 @import '../components/form.css';
 @import '../components/button.css';
 @import '../components/mouse.css';

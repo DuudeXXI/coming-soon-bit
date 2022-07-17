@@ -1,0 +1,81 @@
+.grid-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+.grid-form .form-group{
+
+}
+.grid-form .form-group-2{
+    grid-column: span 2;
+}
+.grid-form input, .grid-form textarea{
+    color: #555;
+    line-height: 40px;
+    border:none;
+    border-bottom: 2px solid rgb(208, 208, 208);
+    outline: none;
+    width: 100%;
+}
+.grid-form > div > textarea{
+    min-height: 100px;
+    max-height: 300px;
+    resize: vertical;
+}
+.grid-form button{
+    grid-column: span 2;
+    justify-self: flex-end;
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 1em 2em;
+    border-radius: 0.2em;
+    margin-bottom: 40px;
+}
+@media (max-width:1150px){
+    .grid-form{
+        grid-template-columns: 1fr;
+    }
+    .grid-form button{
+        grid-column: span 1;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-self:stretch;
+    }
+    .grid-form .form-group-2{
+        grid-column: span 1;
+    }
+}
+/* subscribe form */
+
+.top-form-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+}
+.top-form-container > .hero-sub{
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #ffffffc7;
+    background-color: transparent;
+    width: 100%;
+}
+.top-form-container > button{
+    justify-self: center;
+    padding: 0.8em 2.2em;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    border-radius: 0.2em;
+    margin-bottom: 20px;
+}
+@media(max-width:330px){
+    .top-form-container > .hero-sub{
+        font-size: 15px;
+    }
+    .top-form-container > button{
+        width: 100%;
+    }
+}

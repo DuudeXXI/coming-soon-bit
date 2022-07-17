@@ -30,16 +30,29 @@
             <p class="top-p">
                 An awesome new company for web recources is coming very soon.<br>Enter your email to request at early invitation!
             </p>
-            <p class="clock">
-                CLOCK
-            </p>
-            <form class="top-form-container" action="#">
-                <input class="input-line" type="text" id="fname" value="Type your email"><br><br>
-                <input class="button" type="submit" value="Submit">
-            </form>
-            <div class="mouse">
-                MOUSE
+            <div class="clock">
+                <div class="time">
+                    <span class="value">432</span>
+                    <p class="label">Days</p>
+                </div>
+                <div class="time">
+                    <span class="value">09</span>
+                    <p class="label">Hours</p>
+                </div>
+                <div class="time">
+                    <span class="value">37</span>
+                    <p class="label">Minutes</p>
+                </div>
+                <div class="time">
+                    <span class="value">39</span>
+                    <p class="label">Seconds</p>
+                </div>
             </div>
+            <form class="top-form-container" action="#">
+                <input class="hero-sub" type="text" id="sub" placeholder="Type your email"><br><br>
+                <button> Subscribe Now</button>
+            </form>
+            <div class="mouse"></div>
         </div>
     </section>
     <section class="container">
@@ -52,30 +65,55 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio nemo minima at mollitia repellat, similique quia nisi illo repudiandae deserunt nam <a href="#">Matrox</a>. Eos, est tenetur eum repudiandae at nisi voluptates qui. Ratione aspernatur recusandae blanditiis earum, odit atque inventore.
                 </p>
                 <div class="progress-bar">
-                    Progress-bar
+                    <div class="top">
+                        <div class="label">UX Design</div>
+                        <div class="value">90%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="top">
+                        <div class="label">Web Design</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="bottom1">
+                        <div class="bar" style="width: 86%;"></div>
+                    </div>
+                    <div class="top">
+                        <div class="label">Web Development</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="bottom2">
+                        <div class="bar" style="width: 86%;"></div>
+                    </div>
                 </div>
-                <div class="progress-bar">
-                    Progress-bar
-                </div>
-                <div class="progress-bar">
-                    Progress-bar
-                </div>
-
             </div>
             <div class="right-column">
                 <h2 class="column-title">
                     Have any question?
                 </h2>
                 <p class="column-description" >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cupiditate voluptatem <a href="mailto:">user@email.com</a> ad aliquam distinctio quis excepturi, eos ullam doloremque dolore, repudiandae autem totam accusantium quasi quia, necessitatibus nisi doloribus non dolorem voluptate. Itaque atque aliquam totam voluptatum eius?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cupiditate voluptatem <a href="mailto:">user@email.com</a> ad aliquam distinctio quis excepturi, eos ullam doloremque dolore?
                 </p>
-                <form>
-                    Message form
+                <form class="grid-form">
+                    <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Text...">
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="text"placeholder="Text...">
+                    </div>
+                    <div class="form-group-2">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" placeholder="Text..."></textarea>
+                    </div>
+                    <button type="submit" >Send message</button>
                 </form>
             </div>
         </div>
     </section>
-    <footer class="container bg-main">
+    <footer class="container bg-main bg-color-main">
         <div class="socials">
             <a class="fa fa-facebook" href="#"></a>
             <a class="fa fa-twitter" href="#"></a>
@@ -83,17 +121,19 @@
             <a class="fa fa-tumblr" href="#"></a>
             <a class="fa fa-linkedin" href="#"></a>
             <a class="fa fa-instagram" href="#"></a>
-            <a class="fa fa-rss" href="#"></a>
+            <a class="fa fa-rss centered" href="#"></a>
+
+            <a class="fa fa-angle-up up" href="#"></a>
         </div>
         <div class="bottom-footer">
             <div class="footer-image">
                <img src="./img/footer-logo.png" alt="">
             </div>
            <div class="credits">
-                <p>
+                <p class="pseudo1">
                     Copyright &copy; 2022 <a href="#">Matrox</a>
                 </p>
-                <p>
+                <p class="pseudo2">
                     All Rights Reserved
                 </p>
                 <p>
